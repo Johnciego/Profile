@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>自己紹介</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><strong>Personal Profile</strong></h1>
+    <h2 style="text-align: center;">松本シエゴ</h2>
+    <h3>Self Introduction:</h3>
+    <p>私は内向的な人です。あまりしゃべれないけど、友達ができることに楽しみしています。
+        今から少し自己紹介します。</p>
+        <h3>好きな歌手(1~3順位)</h3>
+        <ol>
+            <li>Taylor Swift</li>
+            <li>Olivia Rodrigo</li>
+            <li>Billie Eilish</li>
+        </ol>
+    <p>Taylor Swiftを知らない方は以下のリンクをクリックして写真をみられます</p>
+    <a href="img/Taylorswift.jpg">Taylor Swiftの写真</a>
+
+    <h3>趣味</h3>
+    <ul>
+        <li>ギターを弾くこと</li>
+        <li>ゲームをする</li>
+        <li>音楽を聴くこと</li>
+    </ul>
+    <img src="img/guitar.jpg" alt="Acoustic Guitarの写真">
+    <b></b>
+    <a href="profile.html">戻る</a>
+    <h1>一週間の予定</h1>
+    <table border="1">
+        <tr>
+            <th>日曜日</th>
+            <td>予習/復習</td>
+            <td>運動</td>
+            <td>家族と外出</td>
+        </tr>
+        <tr>
+            <th>月曜日</th>
+            <td>学校</td>
+            <td>運動</td>
+        </tr>
+        <tr>
+            <th>火曜日</th>
+            <td>オンラインクラス</td>
+            <td>運動</td>
+        </tr>
+        <tr>
+            <th>水曜日</th>
+            <td>授業</td>
+            <td>運動</td>
+        </tr>
+        <tr>
+            <th>木曜日</th>
+            <td>授業</td>
+        </tr>
+        <tr>
+            <th>金曜日</th>
+            <td>授業</td>
+            <td>運動</td>
+        </tr>
+        <tr>
+            <th>土曜日</th>
+            <td>予習/復習</td>
+            <td>運動</td>
+            <td>家族と外出</td>
+        </tr>
+    </table>
+    <dl>
+        <dt>Taylor Swift</dt>
+        <dd>アメリカのシンガーソングライターで、ポップ、カントリー、ロックなど幅広いジャンルで活躍しています。彼女の歌詞は個人的な経験や感情を反映しており、多くの人々に共感を呼んでいます。</dd>
+        <dt>Olivia Rodrigo</dt>
+        <dd>アメリカの若手シンガーソングライターで、2021年にデビューアルバム「SOUR」をリリースし、世界的な注目を集めました。彼女の音楽はポップとロックの要素を取り入れたもので、特に若い世代に人気があります。</dd>
+    </dl>
+    <h2>このページの感想を送る</h2>
+    <form method="get">
+        <dl>
+            <dt><label for="visitor-name">お名前</label></dt>
+            <dd><input type="text" id="visitor-name" name="visitor-name"></dd>
+            <dt>一番良かったところ</dt>
+            <dd>
+                <label><input type="radio" name="best" value="photo">写真</label>
+                <label><input type="radio" name="best" value="list">好きな歌手</label>
+                <label><input type="radio" name="best" value="table">予定の表</label>
+            </dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="text" id="email" name="email"></dd>
+            <dt><label for="comment">感想</label></dt>
+            <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+        </dl>
+        <button type="submit">送信する</button>
+    </form>
+</body>
+</html>
