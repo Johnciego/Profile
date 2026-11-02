@@ -1,0 +1,30 @@
+#head {
+    color: blue;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 12px;
+}
+#name {
+    color: #000000;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+.subhead{
+    background-color: lightblue;
+}
+.content{
+    background-color: lightgray;
+    border-radius: 6px;
+}
+table, th, td{
+    border: 1px solid #333333;
+}
+.favorite {
+    color: #cc3300;
+    font-weight: bold;
+}
+.artist {
+    color: #0000ff;
+    font-weight: bold;
+}
