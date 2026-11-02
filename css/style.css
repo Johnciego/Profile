@@ -3,20 +3,24 @@
     text-align: center;
     background-color: lightblue;
     border-radius: 12px;
+    border: 3px solid black;
 }
 #name {
     color: #000000;
     text-align: center;
     background-color: lightgray;
     padding: 10px;
-    border-bottom: 1px solid #000000;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 .subhead{
     background-color: lightblue;
+    border: 2px solid black;
 }
 .content{
     background-color: lightgray;
     border-radius: 6px;
+    border: 1px solid black;
 }
 table, th, td{
     border: 1px solid #333333;
