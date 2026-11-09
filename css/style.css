@@ -1,32 +1,40 @@
-#head {
-    color: blue;
+
+html{
+    scroll-behavior: smooth;
+}
+header {
+    color: black;
     text-align: center;
     background-color: lightblue;
     border-radius: 12px;
     border: 3px solid black;
 }
+h2{
+    margin-top: 40px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 6px 12px;
+}
 body {
     font-family: sans-serif;
-    background-color: lightgray;
 }
-h2 {
-    border-bottom: 1px  solid black;
-}
-h1 {
-    color: blue;
-    text-align: center;
-}
-#name {
-    color: #000000;
-    text-align: center;
-    background-color: lightgray;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-bottom: 10px solid #000000;
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px
 }
 .subhead{
-    background-color: lightblue;
-    border: 2px solid black;
+    font-size: 25px;
+    border-bottom: 4px solid black;
+    padding: 10px;
 }
 .content{
     background-color: lightgray;
@@ -36,6 +44,10 @@ h1 {
 table, th, td{
     border: 1px solid #333333;
 }
+th, td{
+    padding: 8px;
+    text-align: center;
+}
 .favorite {
     color: #cc3300;
     font-weight: bold;
@@ -43,4 +55,9 @@ table, th, td{
 .artist {
     color: #0000ff;
     font-weight: bold;
+}
+footer{
+    background-color: gray;
+    padding: 2px;
+    font-size: 25px;
 }

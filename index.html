@@ -5,11 +5,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 id="head">Personal Profile</h1>
-    <h2 id="name">松本シエゴ</h2>
-    <h3 class="subhead">Self Introduction:</h3>
+<header>
+    <h1>松本シエゴの自己紹介</h1>
+        <nav>
+            <a href="#favartist">好きな歌手</a>
+            <a href="#hobby">趣味</a>
+            <a href="#schedule">一週間の予定</a>
+            <a href="#form">感想を送る</a>
+        </nav>
+</header>
+    <main>
+        <h2 class="subhead">Self Introduction:</h2>
     <p>私は内向的な人です。あまりしゃべれないけど、友達ができることに楽しみしています。今から少し自己紹介します。</p>
-        <h3 class="subhead">好きな歌手(1~3順位)</h3>
+        <h2 class="subhead" id="favartist">好きな歌手(1~3順位)</h2>
         <ol>
             <li class="favorite">Taylor Swift</li>
             <li>Olivia Rodrigo</li>
@@ -18,7 +26,7 @@
     <p>Taylor Swiftを知らない方は以下のリンクをクリックして写真をみられます</p>
     <a href="img/Taylorswift.jpg">Taylor Swiftの写真</a>
 
-    <h3 class="subhead">趣味</h3>
+    <h2 id="hobby" class="subhead">趣味</h2>
     <ul>
         <li>ギターを弾くこと</li>
         <li>ゲームをする</li>
@@ -27,7 +35,7 @@
     <img src="img/guitar.jpg" alt="Acoustic Guitarの写真">
     <br>
     <a href="profile.html">戻る</a>
-    <h1 class="subhead">一週間の予定</h1>
+    <h2 id="schedule" class="subhead">一週間の予定</h2>
     <table>
         <tr>
             <th>日曜日</th>
@@ -72,7 +80,7 @@
         <dt class="artist">Olivia Rodrigo</dt>
         <dd>アメリカの若手シンガーソングライターで、2021年にデビューアルバム「SOUR」をリリースし、世界的な注目を集めました。彼女の音楽はポップとロックの要素を取り入れたもので、特に若い世代に人気があります。</dd>
     </dl>
-    <h2 class="subhead">このページの感想を送る</h2>
+    <h2 id="form"class="subhead">このページの感想を送る</h2>
     <form class="content"method="get">
         <dl>
             <dt><label for="visitor-name">お名前</label></dt>
@@ -90,5 +98,9 @@
         </dl>
         <button type="submit">送信する</button>
     </form>
+    </main>
+<footer>
+    <p>©2026松本シエゴ</p>
+</footer>
 </body>
 </html>
