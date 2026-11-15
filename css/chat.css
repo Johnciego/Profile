@@ -28,8 +28,6 @@ main {
     margin-right: auto;
     margin: 10px;
     padding: 12px;
-    display:flex;
-    justify-content: flex-start;
 }
 .textright {
     background-color: lightblue;
@@ -38,8 +36,6 @@ main {
     margin:10px;
     padding: 12px;
     margin-left: auto;
-    display: flex;
-    justify-content: flex-end
 }
 .send {
     border-top: solid 3px lightgray;
@@ -64,7 +60,6 @@ footer {
     display: flex;
     border-top: solid 3px lightgray;
     border-radius: 0 0 20px 20px;
-    
 
 }
 @media (max-width: 600px){
