@@ -7,7 +7,7 @@ header {
     background-color: lightblue;
     border-radius: 12px;
     border: 3px solid black;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
 }
@@ -15,10 +15,11 @@ h2{
     margin-top: 40px;
 }
 nav{
-    text-align: center;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 nav a{
     display: inline-block;
@@ -43,6 +44,8 @@ main{
 }
 h1 {
     margin: 0;
+    display:flex;
+    justify-content: center;
 }
 .content{
     background-color: lightgray;
@@ -69,6 +72,7 @@ footer{
     padding: 2px;
     font-size: 25px;
 }
+
 @media (max-width: 600px) {
     header{
         flex-direction: column;
